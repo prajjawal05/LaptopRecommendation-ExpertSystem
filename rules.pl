@@ -1,5 +1,5 @@
 isgaming(X):-
-    ram(X,R),R>=4,
+    ram(X,R),R>=8,
     hd_size(X,H),H>=512,
     screen_size(X,S),S>15,
     (processor_brand(X,intel),(processor_model(X,"i5");processor_model(X,"i3");processor_model(X,"i7")));processor_brand(X,amd),
@@ -21,7 +21,7 @@ isclerk(X):-
     os(X,"windows").
 
 ishome(X):-
-    ram(X,R),R>=2,
+    ram(X,R),R>=4,
     hd_size(X,H),H>=512,
     screen_size(X,S),S>13,
     os(X,"windows");os(X,"mac").
