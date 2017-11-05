@@ -24,4 +24,4 @@ ishome(X):-
     ram(X,R),R>=2,
     hd_size(X,H),H>=512,
     screen_size(X,S),S>13,
-    os(X,"windows").
+    os(X,"windows");os(X,"mac").
