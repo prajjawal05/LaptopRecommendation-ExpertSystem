@@ -10,6 +10,7 @@ isdev(X):-
     ram(X,R),R>=8,
     hd_size(X,H),H>=512,
     screen_size(X,S),S>14,
+    clock_speed(X,C),C>=2.3, 
     (processor_brand(X,intel),(processor_model(X,"i5");processor_model(X,"i3"))),
     gc_size(X,G),G>=1.
     
