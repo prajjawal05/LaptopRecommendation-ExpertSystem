@@ -1,0 +1,184 @@
+﻿id,brand,model,ram,hd_type,hd_size,screen_size,price,processor_brand,processor_model,clock_speed,graphic_card_brand,graphic_card_size,os,weight,comments
+1,Dell,Inspiron 15-3567,4,hdd,1024,15.6,40000,intel,i5,2.5,intel,,linux,2.5,
+2,Apple,MacBook Air,8,ssd,128,13.3,55499,intel,i5,1.8,intel,2,mac,1.35,
+3,Apple,MacBook Air,8,ssd,256,13.3,71500,intel,i5,1.8,intel,2,mac,1.35,
+4,Apple,MacBook Pro,8,ssd,128,13.3,96890,intel,i5,2.3,intel,2,mac,3.02,
+5,Apple,MacBook Pro,8,ssd,256,13.3,112666,intel,i5,2.3,intel,2,mac,3.02,
+6,Apple,MacBook Pro (TouchBar),16,ssd,512,15,226000,intel,i7,2.7,intel,2,mac,2.5,
+7,Apple,MacBook Pro (TouchBar),16,ssd,512,13.3,158000,intel,i5,2.9,intel,2,mac,1.37,
+8,Apple,MacBook ,8,ssd,256,12,96990,intel,core m,1.2,intel,2,mac,0.92,
+9,Dell,Vostro 3468,4,hdd,1024,14,33225,intel,i3,2.4,intel,,linux,1.76,Integrated Graphics
+10,Dell,Inspiron 15.6 3552,4,hdd,500,15,21990,intel,pentium N3710,1.6,intel,,linux,2.19,Integrated Graphics
+11,Dell,Vostro 3468 ,4,hdd,1024,14,35925,intel,i3 ,2.4,intel,,windows,1.76,Integrated Graphics
+12,Dell,Inspiron 14 3442,4,hdd,500,14,30900,intel,i3,1.7,intel,,linux,3.1,Integrated Graphics
+13,Dell,Inspiron 15 3567,4,hdd,1024,15.6,35990,intel,i3,2.3,intel,,windows,3.24,Integrated Graphics
+14,Dell,Vostro 3568,4,hdd,500,15.6,24900,intel,Celeron 3855U,1.6,intel,,linux,2.5,Integrated Graphics
+15,Dell,Inspiron 15 3565,4,hdd,500,15,20990,amd,E2,1.8,amd,,linux,2.3,Integrated Graphics
+16,Acer,Predator Helios 300,16,ssd,1024,15.6,101839,intel,i7,2.8,nvidia,6,windows,2.7,Gaming Laptop
+17,Dell,Latitude 3480,4,hdd,500,14,28870,intel,i3,2,intel,,linux,1.8,Integrated Graphics
+18,Acer,Nitro 5,8,ssd,256,15.6,72784,amd,FX 9830P,3,amd,4000,windows,2.7,
+19,Dell,Inspiron 5559,4,hdd,1024,15.6,34980,intel,i3,2.3,intel,,windows,2.5,Integrated Graphics
+20,Acer,Aspire E5- 575G- 51VA,8,hdd,1024,15.6,50331,intel,i5,2.3,nvidia,,linux,2.7,
+21,Acer,Aspire F 15,8,hdd,1024,15.6,59898,intel,i5,2.8,nvidia,4,windows,2.3,
+22,Dell,Inspiron 11 3148,4,hdd,500,11.6,25990,intel,i3,1.9,intel,,windows,1.4,integrated Graphics
+23,Acer,E5-574G,8,hdd,1024,15.6,53499,intel,i5,2.3,nvidia,2,windows,2.4,
+24,Dell,Inspiron 15 5555,8,hdd,1024,15.6,38590,amd,A10-8700P,3.2,amd,,windows,3.6,Integrated Graphics
+25,Acer,Aspire NX.M8NSI.007,4,ssd,60,11.6,68999,intel,i3,1.4,intel,,windows,1.4,Integrated Graphics
+26,Dell,Inspiron-15 5548,8,hdd,1024,15.6,38990,intel,i5,2.7,amd,2,windows,3.2,
+27,Acer,Spin 7 SP714-51,8,hdd,256,14,124900,intel,i7,3.6,intel,,windows,1.2,Integrated Graphics
+28,Acer,SF314-51,4,hdd,256,14,74797,intel,i5,2.5,intel,,windows,1.5,Integrated Graphics
+29,Acer,Swift 7 SF713-51,8,ssd,256,13.3,80940,intel,i5,3.2,intel,,windows,1.125,Integrated Graphics
+30,Acer,Aspire F5 572G,8,hdd,1024,15.6,50680,intel,i7,2.5,intel,2,linux,2.4,
+31,Acer,ASPIRE V NITRO,12,hdd,1024,15.6,105300,intel,i7,2.6,nvidia,4,windows,2.4,
+32,Acer,Predator 17,16,ssd,256,17.3,178912,intel,i7,2.6,nvidia,,windows,4.2,Integrated Graphics
+33,Acer,Aspire-V VN7-591G,12,hdd,1024,15.6,105510,intel,i7,2.6,nvidia,1,windows,2.4,
+34,Acer,Swift 3,8,ssd,256,14,69999,intel,i5,3.1,intel,,windows,1.525,Integrated Graphics
+35,HP,Omen W 250TX,16,ssd,256,17.6,169990,intel,i7,3.6,nvidia,8,windows,2.7,"The Best Gaming is on GeForce
+Discover desktop-class gaming on a notebook with the next-generation GeForce GTX 1050M/1060M/1070M.** Plus, get improved battery life you need to game longer, unplugged."
+36,HP,Omen AX248TX,8,hdd,1024,15.6,74990,intel,i5,2.6,nvidia,2,windows,2.5,Windows 10 Home
+37,HP,Omen 15-ce074tx,16,ssd,128,15.6,143990,intel,i7,2.8,nvidia,6,windows,2.6,Windows 10 Home
+38,HP,13-D116TU,8,ssd,256,13.3,93410,intel,i5,2.3,intel,,windows,1.35,
+39,HP,13-D115TU,8,ssd,256,13.3,101882,intel,i7,2.5,intel,1,windows,,
+40,HP,13-d015TU,4,ssd,256,13.3,75990,intel,i5,2.3,intel,,windows,,
+41,Acer,Nitro 5 Spin NP-515-51,8,hdd,1024,15.6,87990,intel,i5,1.6,nvidia,4,windows,2.2,
+42,HP,13-ac058TU,8,ssd,360,13.3,115290,intel,i5,2.5,intel,,windows,1.32,
+43,Acer,Aspire E 15,8,hdd,1024,15.6,73756,intel,i5,2.3,nvidia,2,windows,2.4,
+44,HP ,Pavilion 15-cc102TX,8,hdd,1024,15.6,59990,intel,i5,1.6,nvidia,2,windows,2.12,
+45,HP,13-ac059TU,16,ssd,512,13.3,169280,intel,i7,2.7,intel,,windows,,
+46,Lenovo,300–15IBR,8,hdd,1024,15.6,40990,intel,i5,2.3,amd,2,linux,3.2,2.7 customer rating
+47,Acer,Aspire 5 -A515-51G ,8,hdd,1024,15.6,37990,intel,i5,2.5,nvidia,,linux,2.2,
+48,HP,13-v122TU,8,ssd,512,13.3,143999,intel,i7,2.7,intel,,windows,1.11,
+49,Dell,Inspiron 7560,8,hdd,1024,15.6,81369,intel,i7,2.7,nvidia,4,windows,3.1,
+50,Acer,Aspire R 14 R3-431T-P3RD,4,hdd,500,14,63347,intel,Pentium 3805U,1.9,intel,,windows,2.2,Integrated Graphics
+52,HP,15q-bu004tu,4,hdd,1024,15.6,27990,intel,i3,2,intel,,linux,2.1,
+53,HP ,Pavilion 15-au620TX,8,hdd,1024,15.6,55290,intel,i5,2.5,nvidia,2,windows,2.03,
+54,Lenovo,G50-80,8,hdd,1024,15.6,41790,intel,i3,2,amd,2,windows,2.5,customer rating 3.3
+55,Acer,Aspire E5-573G,8,hdd,1024,15.6,87576,intel,i5,2.2,intel,,windows,2.4,Integrated Graphics
+56,HP ,Pavilion 15-au620TX,8,hdd,1024,15.6,60990,intel,i5,2.5,nvidia,4,windows,2.03,
+57,Lenovo,IP310,8,hdd,1024,15.6,41990,intel,i5,2.5,nvidia,2,linux,2.8,customer rating 3.8
+58,Acer,Premium,8,hdd,1024,15.6,72112,intel,i5,2.3,nvidia,2,windows,2.4,
+59,Dell,Inspiron 15 Gaming 5577,8,hdd,1024,15.6,72490,intel,i5,3.5,nvidia,4,windows,2.6,
+60,HP ,Pavilion 15-au620TX ,8,hdd,1024,14,62990,intel,i5,2.5,nvidia,2,windows,2.03,
+61,Lenovo,310 80TV00XXIH,8,hdd,1024,15.6,41990,intel,i5,2.5,nvidia,2,linux,2.2,customer rating 3.5
+62,Dell,Inspiron 15 7000 7567,16,ssd,128,15.6,99991,intel,i7,2.8,nvidia,4,windows,2.8,
+63,HP,14q-bu008tu (2UL54PA),4,hdd,1024,14,39990,intel,i5,2.5,intel,,windows,1.9,
+64,Acer,Switch 10E SW3-016 ,2,ssd,32,10.1,11976,intel,Atom Z8300,1.44,intel,,"windows,linux",1.2,
+65,HP ,15-BR011TX,8,hdd,1024,15.6,52690,intel,i5,2.5,amd,2,windows,2.1,
+66,Dell,Inspiron 15 Gaming 7567,8,hdd,1024,15.6,91890,intel,i7,3.8,nvidia,4,windows,2.8,
+67,Acer,Nitro 5,16,ssd,256,14,131551,intel,i5,3.5,nvidia,4,windows,2.7,
+68,HP ,15-BR011TX,8,hdd,1024,15.6,65590,intel,i5,2.5,amd,4,windows,2.1,
+69,Lenovo,300-15ISK 80Q700DWIN,4,hdd,1024,15.6,41990,intel,i5,2.3,amd,2,linux,2.3,cutomer rating 3.6
+70,Dell,Inspiron 5567,16,hdd,2048,15.6,84990,intel,i7,3.5,amd,,windows,2.4,
+71,HP,15q-BU008TX,4,hdd,1024,15.6,33990,intel,i3,2,amd,,linux,2.1,
+72,HP ,Pavilion 14-AL176TX,8,hdd,1024,14,57990,intel,i5,2.5,nvidia,2,windows,1.58,
+73,Dell,Inspiron 15 5000 5567,16,hdd,2048,15.6,86350,intel,i7,3.5,amd,4,windows,2.4,
+74,HP ,Pavilion x360 14-ba075TX ,8,hdd,1024,14,51490,intel,i3,2.4,nvidia,2,windows,1.72,
+75,Lenovo,G50-80 80E503CMIH,8,hdd,1024,15.6,42500,intel,i5,2.2,amd,2,linux,3.2,customer rating 3.8
+76,Acer,Aspire ES1-523 ,4,hdd,1024,15.6,19465,amd,A4-7210,1.8,amd,,linux,2.4,
+77,HP,15-bs541TU,4,hdd,1024,15.6,34990,intel,i3,2,intel,,windows,2.1,
+78,Dell,Inspiron 15 Gaming 5577,8,hdd,1024,15.6,83000,intel,i7,3.8,nvidia,4,windows,2.6,
+79,HP,15-bs541TU,8,hdd,1024,15.6,36590,intel,i3,2,amd,,linux,2.1,
+80,Lenovo,59422410,8,hdd,1024,15.6,42190,intel,i3,1.7,amd,2,windows,2.4,customer rating 3.9
+81,Dell,Inspiron 5378,8,ssd,256,13.3,76585,intel,i7,2.7,intel,2,windows,1.6,"Laptop with Built-in Battery, AC Adapter with Power Cord, Manuals"
+82,Lenovo,100 80QQ01BBIH,4,hdd,1024,15.6,42790,intel,i5,2.2,nvidia,2,windows,2.3,customer rating 2.9
+83,HP,15q-Bu014TU ,4,hdd,1024,15.6,39990,intel,i5,2.5,intel,,windows,2.1,
+84,HP,L8E74UT#ABA,2,ssd,500,11.6,40255,intel,i5,,intel,,windows,1.28,
+85,Dell,Inspiron 17 7567,16,ssd,256,15.6,119780,intel,i7,2.8,,,windows,4.1,
+86,Acer,A315-31CDC UN.GNTSI.001,2,ssd,500,15.6,17990,intel,Celeron,1.1,intel,,windows,2.1,
+87,Lenovo,G50-80 80E5021EIN,4,hdd,1024,15.6,42990,intel,i5,2.2,intel,,linux,3.2,customer rating 3.4
+88,HP,Pavilion x360 11-AD022TU,4,hdd,1024,11,39999,intel,i3,2.4,intel,,windows,1.39,
+89,Dell,Inspiron 5567,16,hdd,1024,15.6,74985,intel,i7,3.5,amd,,windows,2.3,
+90,HP ,15-au623Tx,8,hdd,1024,15.5,59990,intel,i5,2.5,nvidia,4,windows,2.9,
+91,HP,15-BS544TU,8,hdd,1024,15.6,32849,intel,i3,2,intel,,linux,2.1,
+92,Lenovo,320E 80XL0378IN,4,hdd,1024,15.6,43990,intel,i5,3.1,intel,2,windows,2.2,customer rating 3.2
+93,Alienware,15 Notebook,16,hdd,1024,15.6,199000,intel,i7,2.6,nvidia,8,windows,3.5,Maximum Display Resolution : 1920 x 1080 pixel
+94,Dell,Inspiron 7378,8,ssd,256,13.3,77993,intel,i7,2.7,,,windows,2.8,
+95,HP,15-ay511tx,8,hdd,1024,15.6,41990,intel,i3,2,amd,2,windows,2.19,
+96,Acer,Aspire3 A315-51-356P ,4,hdd,1024,15.6,30415,intel,i3,2,intel,,windows,2.2,
+97,Dell,Inspiron 15 5578,16,ssd,512,15.6,76996,intel,i7,2.7,intel,,windows,2.3,
+98,HP,HP AR004TU,4,hdd,1024,14,34668,intel,i3,2,intel,,windows,1.94,
+99,Alienware,AW13R3-7000SLV-PUS,8,ssd,256,13.3,190256,intel,i7,3,nvidia,6,windows,2.6,"13.3 inch FHD (1920 x 1080) IPS Anti-Glare 300-nits Display
+1 Lithium ion batteries required. (included)"
+100,HP ,Pavilion 14-bf125tx ,12,hdd,1024,14,64490,intel,i5,1.6,nvidia,2,windows,1.53,
+101,Dell,Inspiron 15 Gaming 7567,16,hdd,1280,15.6,112990,intel,i7,3.8,nvidia,4,windows,2.8,"Operating System:	Windows 10 with Office 2016 Home and Student
+
+Lithium Battery Energy Content:	74 Watt Hours
+
+Included Components:	Laptop, Battery, AC Adapter, User Guide, Manuals"
+102,HP,ay516tx,4,hdd,1024,15.6,42100,intel,i5,2.3,amd,2,windows,1.28,
+103,Acer,A315-31-P4CRUN.GNTSI.002,4,hdd,500,15.6,18990,intel,pentium,1.1,intel,,windows,,
+105,Lenovo,320E-15IKB 80XL03FYIN,4,hdd,1024,15,45589,intel,i5,2.2,amd,2,windows,2.5,customer rating 3.8
+106,Dell,Inspiron 15 7560,8,ssd,128,15.6,76000,intel,i7,2.7,nvidia,4,windows,3.2,
+107,HP,15q-BU011TX,8,hdd,1024,15.6,42990,intel,i5,2.5,amd,2,windows,2.1,
+108,Lenovo,300 300-15ISK 80Q700UGIN,4,hdd,1024,15.6,47990,intel,i5,2.3,amd,2,windows,3.2,customer rating 3.0
+109,Dell,XPS 12 Ultrabook,4,ssd,128,12,101065,intel,i5,2.6,intel,,windows,3.2,"Average Battery Life (in hours):	4
+Lithium Battery Energy Content:	  50 Watt Hours"
+110,HP,15-BS580TX,8,hdd,1024,15.6,42999,intel,i3 ,2,amd,2,windows,2.1,
+111,Lenovo,510 80VB00ACIH,4,hdd,1024,14,47990,intel,i3,2.4,intel,2,windows,1.7,customer rating 4.0
+112,Acer,Aspire ES-15 NX.GKYSI.010 ,4,hdd,500,15.6,17990,amd,A4-7210,1.8,amd,,windows,2.4,
+113,Lenovo,500 80NS0072IN,4,hdd,1024,14,49052,intel,i5,2.3,amd,2,windows,2.3,customer rating 3.0
+114,HP,450-Ci3,4,hdd,512,13.86,43113,intel,i3,2.4,intel,,windows,2.25,
+115,Lenovo,320S-14IKB,4,hdd,1024,14,48449,intel,i5,3.1,intel,2,windows,1.7,customer rating 3.1
+116,Acer,Aspire R3-131T ,4,hdd,500,11.6,26490,intel,Pentium N3700,1.6,intel,,windows,1.58,
+117,HP,15-be001TX,8,hdd,1024,15.6,43990,intel,i5,2.3,amd,2,windows,2.19,
+118,HP,15-ac123tx,4,hdd,1024,15.6,44000,intel,i5,2.2,amd,2,windows,2.19,
+119,Acer,Aspire Es1-572-38Cy,4,hdd,1024,15.6,24890,intel,i3,2.3,intel,,linux,3.36,
+120,Alienware,OEM,16,hdd,1024,15.6,151258,intel,i7,2.6,nvidia,4,windows,3.18,"Display: 15.6"" in 4K UHD IPS touchscreen (3840 x 2160), 10-finger multi-touch support
+Audio: Klipsch Audio"
+121,Acer,A315-21G NX.GNPSI.002 ,4,hdd,500,15.6,24990,intel,i3,2,intel,,linux,2.1,
+122,Alienware,13 Y560901IN9,8,hdd,1024,13,117299,intel,i5,2.7,nvidia,2,windows,2.5,""
+123,HP,"245 G4,P1b38PA",4,ssd,1024,15.6,21999,amd,E2-7110,1.8,amd,,linux,2.93,
+124,HP,N5Y13UA#ABA,4,hdd,500,15.6,41134,intel,i5,2.3,amd,2,windows,2.1,
+125,Dell,Inspiron 15 3551,2,hdd,500,15.6,23000,intel,Pentium,2.16,intel,,linux,3.12,Integrated graphics
+126,Alienware,ANW17-2143SLV,8,hdd,1024,17.3,178427,intel,i7,2.5,nvidia,3,windows,3.8,17.3 inch FHD (1920 x 1080) IPS-Panel Anti-Glare 300-nits Display
+127,HP,15-ac118tu,4,ssd,500,15.6,23990,intel,Pentium N3825U,1.9,intel,,linux,3.03,Intel Integrated Graphics
+128,Acer,E5-575 NX.GE6SI.016,4,hdd,1024,15.6,34700,intel,i5,2.5,nvidia,,linux,2.2,
+129,HP,15-AY542TU,4,hdd,1024,15.6,28590,intel,i3,2,intel,,linux,2.19,
+130,HP,245 G5,4,hdd,500,14,40199,amd,APU Dual Core A4,1.8,amd,2,windows,1.8,
+131,Acer,Aspire R3-131T 2017 ,4,hdd,500,11.6,27199,intel,Pentium N3710,1.6,intel,,windows,2.4,
+132,Dell,Inspiron 5558,2,hdd,500,15.6,37790,intel,I3,1.7,intel,,windows,,
+133,HP,15- BS547TU,4,ssd,500,15.6,26299,intel,Pentium N3710  ,1.6,,,windows,2.1,Integrated Graphics
+134,Alienware,17R3 1471045648,8,hdd,1024,17.3,150453,intel,i7,2.6,nvidia,3,windows,3.8,""
+135,HP,11-ad022TU,4,hdd,1024,11.6,40490,intel,i3,2.4,amd,,windows,1.39,
+136,HP,15-BE002TU,4,hdd,1024,15.6,25248,intel,Pentium N3710,1.6,intel,,linux,2.19,""
+137,Acer,ASPIRE ES1-572-33M8,4,hdd,1024,15.6,33990,intel,i3,2,intel,,windows,3,
+138,HP,15-ay008TX,4,hdd,1024,15.6,40890,intel,i5,2.3,amd,2,windows,2.19,
+139,HP ,Pavilion 15-AU624TX,4,hdd,1024,15.6,58988,intel,i5,2.5,nvidia,4,windows,2.04,
+140,Dell,Inspiron i3168,2,ssd,32,11.6,37274,intel,Celeron N3060,1.6,intel,,windows,1.45,
+141,HP,15-bg007AU,4,ssd,500,15.6,23990,amd,A6-7310,2,amd,,windows,2.5,
+142,HP ,13-s101TU,4,hdd,1024,13.3,57900,intel,i5,2.3,intel,,windows,1.71,
+143,Acer,ASPIRE E5-575 ,4,hdd,1024,15.6,27280,intel,i3,2.3,,2,linux,,
+144,HP,M2C39UA#ABA,2,ssd,32,14,41224,amd,E1-6015,1.4,nvidia,,windows,1.9,
+145,HP,1EK01PA,4,hdd,1024,15.6,41380,intel,i5,3.1,amd,2,windows,2.3,
+146,HP ,Pavilion 15-AU006TX,8,hdd,1024,15.6,57000,intel,i5,2.3,nvidia,4,windows,2.9,
+147,Acer,Aspire ES 15,4,hdd,1024,15.6,19589,amd,E1-7010,1.5,amd,,linux,2.4,
+148,Microsoft,Surface Pro 4 CR5-00028,4,ssd,128,12.3,66500,intel,i5,1.8,intel,,windows,0.78,"Laptop/Tablet: Go from tablet to laptop in a snap with the multi-position Kickstand and improved keyboard. (to be purchased separately)
+Integrated Graphics
+Full HD Display
+"
+149,HP,E4X93PA,2,ssd,64,10.1,41599,intel,i3,1.8,nvidia,,windows,1.26,
+150,HP,15-AY079TX,8,hdd,1024,15.6,41850,intel,i3,2,amd,,windows,2.2,
+151,Microsoft,Surface Pro 4 CR3-00022,8,ssd,256,12.3,88900,intel,i5,1.8,intel,,windows,0.79,"Laptop/Tablet: Go from tablet to laptop in a snap with the multi-position Kickstand and improved keyboard. (to be purchased separately)
+Integrated Graphics
+Surface Pen included"
+152,Acer,Aspire SW3-016 ,2,ssd,32,10.1,13872,intel,Atom Z8300,1.44,intel,,windows,1.2,
+153,Microsoft,Surface Pro 4 CQ9-00016,8,ssd,256,12.3,122990,intel,i7,1.8,intel,,windows,0.79,"Laptop/Tablet: Go from tablet to laptop in a snap with the multi-position Kickstand and improved keyboard. (to be purchased separately)
+Integrated Graphics
+Surface Pen included"
+154,HP ,ProBook 450 G4 Notebook,4,hdd,1024,15.6,56197,intel,i5,2.5,intel,,linux,,
+155,Microsoft,Surface Laptop DAG-00001,8,ssd,256,13.5,171901,intel,i5,1.8,intel,,windows,1.2,Integrated Graphics
+156,HP ,Pavilion15t,8,hdd,1024,15,56992,intel,i5,2.5,nvidia,2,windows,2.8,
+157,Microsoft,Surface Book CR9-00001,8,ssd,128,13.5,143857,intel,i5,1.8,intel,,windows,1.6,""
+158,Microsoft,Surface Book CR9-00013,8,ssd,128,13.5,178799,intel,i5,1.8,intel,,windows,1.5,""
+159,Lenovo,IdeaPad 520-15IKB,8,hdd,1024,15.6,58990,intel,i5,3.1,nvidia,4,windows,2.2,Dolby Audio
+160,Lenovo,IdeaPad 520-15IKB,8,hdd,2048,15.6,61000,intel,i5,3.1,nvidia,4,windows,2.2,Dolby Audio
+161,Lenovo,IdeaPad 520-15IKB 80YL00RXIN ,8,hdd,1024,15.6,69990,intel,i7,3.5,nvidia,4,windows,2.2,"Core i7-7500U 7th Gen processor, Dolby Audio"
+162,Asus,X540YA-XO290D,4,hdd,1024,15.6,19990,amd,APU Quad Core E2,1.8,amd,,linux,2,
+163,Asus ,P2420SA,4,hdd,500,14,22290,intel,Pentium Quad Core,1.6,intel,,linux,1.95,
+164,Asus,X540LA-XX596D,4,hdd,1024,15.6,26990,intel,i3 5th gen,2,intel,,linux,1.9,
+165,Asus,X541UA-GO1345D,4,hdd,1024,15.6,27730,intel,i3 6th gen,2,intel,,linux,1.84,
+166,Asus,A555LF,8,hdd,1024,15.6,39961,intel,i3 4th gen,1.7,nvidia,2,windows,2.3,
+167,Asus,X555LA-XX172D,4,hdd,500,15.6,28489,intel,i3 4th gen,1.9,intel,,linux,2.3,
+168,Asus,X554LD,2,hdd,500,15.6,29199,intel,i3 4th gen,1.9,intel,1,linux,2.3,
+169,Asus,X550LAV-XX771D,2,hdd,500,15.6,29990,intel,i3 4th gen,1.7,intel,,linux,2.5,
+170,Asus,X540LA-XX538T,4,hdd,1024,15.6,30899,intel,i3 5th gen,2,intel,,windows,2.3,
