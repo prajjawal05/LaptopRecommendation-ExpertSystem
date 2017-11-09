@@ -75,20 +75,15 @@ compare_processors(P,Q):-
     ((X == "i5", Y == "i3");
     (X == "i7", Y == "i5")).
 
+
 compare_laptop(X,Y):-
-    A = 0, B = 0
-    (compare_processors_brand(X,Y) -> A = A+1),
-    (compare_processors_brand(Y,X) -> B = B+1),
-    (compare_processors(X,Y) -> A = A+1),
-    (compare_processors(Y,X) -> B = B+1),
-    (compare_graphics(X,Y) -> A = A+1),
-    (compare_graphics(Y,X) -> B = B+1),
-    (compare_gc_size(X,Y) -> A = A+1),
-    (compare_gc_size(Y,X) -> B = B+1),
-    (compare_hd_type(X,Y) -> A = A+1),
-    (compare_hd_type(Y,X) -> B = B+1),
-    (compare_screen_size(X,Y) -> A = A+1),
-    (compare_screen_size(Y,X) -> B = B+1),
-    (compare_weight(X,Y) -> A = A+1),
-    (compare_weight(Y,X) -> B = B+1),
+    A = 0, B = 0,
+    (compare_processors_brand(X,Y) -> A=A+1 ; B=B+1),
+    (compare_processors(X,Y) -> A=A+1 ; B=B+1),
+    (compare_graphics(X,Y) -> A=A+1 ; B=B+1),
+    (compare_gc_size(X,Y) -> A=A+1 ; B=B+1),
+    (compare_hd_type(X,Y) -> A=A+1 ; B=B+1),
+    (compare_screen_size(X,Y) -> A=A+1 ; B=B+1),
+    (compare_weight(X,Y) -> A=A+1 ; B=B+1),
     write(A),write(B).
+
