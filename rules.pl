@@ -26,3 +26,64 @@ ishome(X):-
     hd_size(X,H),H>=512,
     screen_size(X,S),S>13,
     os(X,"windows");os(X,"mac").
+
+compare_hd_type(P,Q):-
+    A = 1, B = 2, B>A,
+    hd_type(P,R),
+    hd_type(Q,S),
+    X = R, Y= S,
+    (X == "ssd", Y == "hdd").
+
+compare_gc_size(P,Q):-
+    gc_size(P,R),
+    gc_size(Q,S),
+    X = R, Y= S,
+    X>Y.
+
+compare_weight(P,Q):-
+    weight(P,R),
+    weight(Q,S),
+    X = R, Y= S,
+    X>Y.
+
+compare_screen_size(P,Q):-
+    screen_size(P,R),
+    screen_size(Q,S),
+    X = R, Y= S,
+    X>Y.
+
+compare_processors_brand(P,Q):-
+    A = 1, B = 2, B>A,
+    processor_brand(P,R),
+    processor_brand(Q,S),
+    X = R, Y= S,
+    (X == "intel", Y == "amd").
+
+compare_graphics(P,Q):-
+    A = 1, B = 2, B>A,
+    gc_brand(P,R),
+    gc_brand(Q,S),
+    X = R, Y= S,
+    ((X == "nvidia", Y == "amd");
+    (X == "amd", Y == "intel")).
+
+compare_processors(P,Q):-
+    A = 1, B = 2, B>A,
+    processor_model(P,R),
+    processor_model(Q,S),
+    X = R, Y= S,
+    ((X == "i5", Y == "i3");
+    (X == "i7", Y == "i5")).
+
+
+compare_laptop(X,Y):-
+    A = 0, B = 0,
+    (compare_processors_brand(X,Y) -> A=A+1 ; B=B+1),
+    (compare_processors(X,Y) -> A=A+1 ; B=B+1),
+    (compare_graphics(X,Y) -> A=A+1 ; B=B+1),
+    (compare_gc_size(X,Y) -> A=A+1 ; B=B+1),
+    (compare_hd_type(X,Y) -> A=A+1 ; B=B+1),
+    (compare_screen_size(X,Y) -> A=A+1 ; B=B+1),
+    (compare_weight(X,Y) -> A=A+1 ; B=B+1),
+    write(A),write(B).
+
