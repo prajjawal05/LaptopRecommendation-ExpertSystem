@@ -1,3 +1,20 @@
+:- discontiguous(laptop/1).
+:- discontiguous(brand/2).
+:- discontiguous(model/2).
+:- discontiguous(ram/2).
+:- discontiguous(hd_type/2).
+:- discontiguous(hd_size/2).
+:- discontiguous(screen_size/2).
+:- discontiguous(price/2).
+:- discontiguous(processor_brand/2).
+:- discontiguous(processor_model/2).
+:- discontiguous(clock_speed/2).
+:- discontiguous(gc_brand/2).
+:- discontiguous(gc_size/2).
+:- discontiguous(os/2).
+:- discontiguous(weight/2).
+:- discontiguous(comments/2).
+
 % Facts for Dell Inspiron 15-3567
 laptop(1).
 brand(1,'Dell').
@@ -660,7 +677,8 @@ gc_brand(35,'nvidia').
 gc_size(35,8).
 os(35,'windows').
 weight(35,2.7).
-comments(35,'The Best Gaming is on GeForce Discover desktop-class gaming on a notebook with the next-generation GeForce GTX 1050M/1060M/1070M.** Plus, get improved battery life you need to game longer, unplugged.').
+comments(35,'The Best Gaming is on GeForce
+ Discover desktop-class gaming on a notebook with the next-generation GeForce GTX 1050M/1060M/1070M.** Plus, get improved battery life you need to game longer, unplugged.').
 
 
 % Facts for HP Omen AX248TX
@@ -1857,7 +1875,8 @@ gc_brand(99,'nvidia').
 gc_size(99,6).
 os(99,'windows').
 weight(99,2.6).
-comments(99,'13.3 inch FHD (1920 x 1080) IPS Anti-Glare 300-nits Display 1 Lithium ion batteries required. (included)').
+comments(99,'13.3 inch FHD (1920 x 1080) IPS Anti-Glare 300-nits Display
+ 1 Lithium ion batteries required. (included)').
 
 
 % Facts for HP  Pavilion 14-bf125tx 
@@ -1895,7 +1914,11 @@ gc_brand(101,'nvidia').
 gc_size(101,4).
 os(101,'windows').
 weight(101,2.8).
-comments(101,'Operating System:	Windows 10 with Office 2016 Home and Student  Lithium Battery Energy Content:	74 Watt Hours  Included Components:	Laptop, Battery, AC Adapter, User Guide, Manuals').
+comments(101,'Operating System:	Windows 10 with Office 2016 Home and Student
+ 
+ Lithium Battery Energy Content:	74 Watt Hours
+ 
+ Included Components:	Laptop, Battery, AC Adapter, User Guide, Manuals').
 
 
 % Facts for HP ay516tx
@@ -2028,7 +2051,8 @@ gc_brand(109,'intel').
 gc_size(109,nil).
 os(109,'windows').
 weight(109,3.2).
-comments(109,'Average Battery Life (in hours):	4 Lithium Battery Energy Content:	  50 Watt Hours').
+comments(109,'Average Battery Life (in hours):	4
+ Lithium Battery Energy Content:	  50 Watt Hours').
 
 
 % Facts for HP 15-BS580TX
@@ -2237,7 +2261,8 @@ gc_brand(120,'nvidia').
 gc_size(120,4).
 os(120,'windows').
 weight(120,3.18).
-comments(120,'Display: 15.6" in 4K UHD IPS touchscreen (3840 x 2160), 10-finger multi-touch support Audio: Klipsch Audio').
+comments(120,'Display: 15.6" in 4K UHD IPS touchscreen (3840 x 2160), 10-finger multi-touch support
+ Audio: Klipsch Audio').
 
 
 % Facts for Acer A315-21G NX.GNPSI.002 
@@ -2769,7 +2794,10 @@ gc_brand(148,'intel').
 gc_size(148,nil).
 os(148,'windows').
 weight(148,0.78).
-comments(148,'Laptop/Tablet: Go from tablet to laptop in a snap with the multi-position Kickstand and improved keyboard. (to be purchased separately) Integrated Graphics Full HD Display ').
+comments(148,'Laptop/Tablet: Go from tablet to laptop in a snap with the multi-position Kickstand and improved keyboard. (to be purchased separately)
+ Integrated Graphics
+ Full HD Display
+ ').
 
 
 % Facts for HP E4X93PA
@@ -2826,7 +2854,9 @@ gc_brand(151,'intel').
 gc_size(151,nil).
 os(151,'windows').
 weight(151,0.79).
-comments(151,'Laptop/Tablet: Go from tablet to laptop in a snap with the multi-position Kickstand and improved keyboard. (to be purchased separately) Integrated Graphics Surface Pen included').
+comments(151,'Laptop/Tablet: Go from tablet to laptop in a snap with the multi-position Kickstand and improved keyboard. (to be purchased separately)
+ Integrated Graphics
+ Surface Pen included').
 
 
 % Facts for Acer Aspire SW3-016 
@@ -2864,7 +2894,9 @@ gc_brand(153,'intel').
 gc_size(153,nil).
 os(153,'windows').
 weight(153,0.79).
-comments(153,'Laptop/Tablet: Go from tablet to laptop in a snap with the multi-position Kickstand and improved keyboard. (to be purchased separately) Integrated Graphics Surface Pen included').
+comments(153,'Laptop/Tablet: Go from tablet to laptop in a snap with the multi-position Kickstand and improved keyboard. (to be purchased separately)
+ Integrated Graphics
+ Surface Pen included').
 
 
 % Facts for HP  ProBook 450 G4 Notebook
