@@ -2,9 +2,10 @@ import csv
 
 csvfile = open("laptops.csv", newline='')
 reader = csv.DictReader(csvfile)
-
+i =1
 for row in reader:
-	row['id'] = row['\ufeffid']
+	row['id'] = i
+	i = i+1
 	row['comments'] = row['comments'].replace('\n',' ')
 	print(f"% Facts for {row['brand']} {row['model']}")
 	print(f"laptop({str(row['id'])}).")
@@ -20,20 +21,20 @@ for row in reader:
 	if row['clock_speed']:
 		print(f"clock_speed({str(row['id'])},{row['clock_speed']}).")
 	else:
-		print(f"clock_speed({str(row['id'])},nil).")
+		print(f"clock_speed({str(row['id'])},0).")
 	if row['graphic_card_brand']:
 		print(f"gc_brand({str(row['id'])},\'{row['graphic_card_brand']}\').")
 	else:
-		print(f"gc_brand({str(row['id'])},nil).")
+		print(f"gc_brand({str(row['id'])},0).")
 	if row['graphic_card_size']:
 		print(f"gc_size({str(row['id'])},{row['graphic_card_size']}).")
 	else:
-		print(f"gc_size({str(row['id'])},nil).")
+		print(f"gc_size({str(row['id'])},0).")
 	print(f"os({str(row['id'])},\'{row['os']}\').")
 	if row['weight']:
 		print(f"weight({str(row['id'])},{row['weight']}).")
 	else:
-		print(f"weight({str(row['id'])},nil).")
+		print(f"weight({str(row['id'])},1).")
 	print(f"comments({str(row['id'])},\'{row['comments']}\').")
 	print()
 	print()
