@@ -1,6 +1,3 @@
-:-include('facts.pl').
-:-include('rules.pl').
-
 printlaptop(H):-
     brand(H,A),
     model(H,B),
@@ -26,45 +23,34 @@ printlaptop(H):-
     write(K),write(' '),write(L),
     write(' '),write(M),write(' '),write(N),write(' '),write(O),put(10).
 
-check([],_,_,[]).
-check([H|T],S,P,[H|Result]) :-
+check([],_,[]).
+check([H|T],S,[H|Result]) :-
     S=:=1,
-    price(H,Q),
-    Q=<P,
+    printlaptop(H),
     isgaming(H),
-    printlaptop(H),
-    check(T,S,P,Result).
+    check(T,S,Result).
 
-check([H|T],S,P,[H|Result]) :-
+check([H|T],S,[H|Result]) :-
     S=:=2,
-    price(H,Q),
-    Q=<P,
+    printlaptop(H),
     isdev(H),
-    printlaptop(H),
     check(T,S,P,Result).
-check([H|T],S,P,[H|Result]) :-
+check([H|T],S,[H|Result]) :-
     S=:=3,
-    price(H,Q),
-    Q=<P,
+    printlaptop(H),
     isclerk(H),
-    printlaptop(H),
-    check(T,S,P,Result).
+    check(T,S,Result).
 
-check([H|T],S,P,[H|Result]) :-
+check([H|T],S,[H|Result]) :-
     S=:=4,
-    price(H,Q),
-    Q=<P,
-    ishome(H),
     printlaptop(H),
-    check(T,S,P,Result).
+    ishome(H),
+    check(T,S,Result).
 
-check([_|T],S,P,Result) :-
-    check(T,S,P,Result).
-l(0,[]).
-l(N,[N|L]):-
-    N>0,
-    N1 is N-1,
-    l(N1,L).
+check([_|T],S,Result) :-
+    check(T,S,Result).
+	
+	
 test(M) :-
     write('Type of laptop: 1 for gaming, 2 for dev, 3 for clerk, 4 for home '),
     read(B),
@@ -73,5 +59,7 @@ test(M) :-
     read(P),
     integer(P),
     P>0,
-    l(170,L),
-    check(L,B,P,M).
+    input(P,L),
+	bubble_sort(L,X),
+    %numlist(1,168,L),
+	check(L,B,M).
