@@ -30,7 +30,6 @@ ishome(X):-
     os(X,'windows');os(X,'mac').
 
 compare_hd_type(P,Q):-
-    A = 1, B = 2, B>A,
     hd_type(P,R),
     hd_type(Q,S),
     X = R, Y= S,
